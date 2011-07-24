@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C41A3413DCE3D300A52B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3313DCE3D300A52B66 /* UIKit.framework */; };
+		75C41A3613DCE3D300A52B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3513DCE3D300A52B66 /* Foundation.framework */; };
+		75C41A3813DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3713DCE3D300A52B66 /* CoreGraphics.framework */; };
+		75C41A3E13DCE3D300A52B66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A3C13DCE3D300A52B66 /* InfoPlist.strings */; };
+		75C41A4013DCE3D300A52B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C41A3F13DCE3D300A52B66 /* main.m */; };
+		75C41A4413DCE3D300A52B66 /* Silent_RaveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C41A4313DCE3D300A52B66 /* Silent_RaveAppDelegate.m */; };
+		75C41A4713DCE3D300A52B66 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A4513DCE3D300A52B66 /* MainWindow.xib */; };
+		75C41A4A13DCE3D300A52B66 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C41A4913DCE3D300A52B66 /* FirstViewController.m */; };
+		75C41A4D13DCE3D300A52B66 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C41A4C13DCE3D300A52B66 /* SecondViewController.m */; };
+		75C41A5013DCE3D300A52B66 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A4E13DCE3D300A52B66 /* FirstView.xib */; };
+		75C41A5313DCE3D300A52B66 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A5113DCE3D300A52B66 /* SecondView.xib */; };
+		75C41A5B13DCE3D300A52B66 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A5A13DCE3D300A52B66 /* SenTestingKit.framework */; };
+		75C41A5C13DCE3D300A52B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3313DCE3D300A52B66 /* UIKit.framework */; };
+		75C41A5D13DCE3D300A52B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3513DCE3D300A52B66 /* Foundation.framework */; };
+		75C41A5E13DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3713DCE3D300A52B66 /* CoreGraphics.framework */; };
+		75C41A6613DCE3D300A52B66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A6413DCE3D300A52B66 /* InfoPlist.strings */; };
+		75C41A6813DCE3D300A52B66 /* Silent_RaveTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 75C41A6713DCE3D300A52B66 /* Silent_RaveTests.h */; };
+		75C41A6A13DCE3D300A52B66 /* Silent_RaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C41A6913DCE3D300A52B66 /* Silent_RaveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C41A5F13DCE3D300A52B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C41A2613DCE3D300A52B66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C41A2E13DCE3D300A52B66;
+			remoteInfo = "Silent Rave";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C41A2F13DCE3D300A52B66 /* Silent Rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silent Rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C41A3313DCE3D300A52B66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75C41A3513DCE3D300A52B66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75C41A3713DCE3D300A52B66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75C41A3B13DCE3D300A52B66 /* Silent Rave-Info.plist */ = {isa = PBXFileReference; path = "Silent Rave-Info.plist"; sourceTree = "<group>"; };
+		75C41A3D13DCE3D300A52B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75C41A3F13DCE3D300A52B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75C41A4113DCE3D300A52B66 /* Silent Rave-Prefix.pch */ = {isa = PBXFileReference; path = "Silent Rave-Prefix.pch"; sourceTree = "<group>"; };
+		75C41A4213DCE3D300A52B66 /* Silent_RaveAppDelegate.h */ = {isa = PBXFileReference; path = Silent_RaveAppDelegate.h; sourceTree = "<group>"; };
+		75C41A4313DCE3D300A52B66 /* Silent_RaveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Silent_RaveAppDelegate.m; sourceTree = "<group>"; };
+		75C41A4613DCE3D300A52B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		75C41A4813DCE3D300A52B66 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		75C41A4913DCE3D300A52B66 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		75C41A4B13DCE3D300A52B66 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		75C41A4C13DCE3D300A52B66 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		75C41A4F13DCE3D300A52B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		75C41A5213DCE3D300A52B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		75C41A5913DCE3D300A52B66 /* Silent RaveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silent RaveTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C41A5A13DCE3D300A52B66 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		75C41A6313DCE3D300A52B66 /* Silent RaveTests-Info.plist */ = {isa = PBXFileReference; path = "Silent RaveTests-Info.plist"; sourceTree = "<group>"; };
+		75C41A6513DCE3D300A52B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75C41A6713DCE3D300A52B66 /* Silent_RaveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Silent_RaveTests.h; sourceTree = "<group>"; };
+		75C41A6913DCE3D300A52B66 /* Silent_RaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Silent_RaveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C41A2C13DCE3D300A52B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A3413DCE3D300A52B66 /* UIKit.framework in Frameworks */,
+				75C41A3613DCE3D300A52B66 /* Foundation.framework in Frameworks */,
+				75C41A3813DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C41A5513DCE3D300A52B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A5B13DCE3D300A52B66 /* SenTestingKit.framework in Frameworks */,
+				75C41A5C13DCE3D300A52B66 /* UIKit.framework in Frameworks */,
+				75C41A5D13DCE3D300A52B66 /* Foundation.framework in Frameworks */,
+				75C41A5E13DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C41A2413DCE3D300A52B66 = {
+			isa = PBXGroup;
+			children = (
+				75C41A3913DCE3D300A52B66 /* Silent Rave */,
+				75C41A6113DCE3D300A52B66 /* Silent RaveTests */,
+				75C41A3213DCE3D300A52B66 /* Frameworks */,
+				75C41A3013DCE3D300A52B66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C41A3013DCE3D300A52B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A2F13DCE3D300A52B66 /* Silent Rave.app */,
+				75C41A5913DCE3D300A52B66 /* Silent RaveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C41A3213DCE3D300A52B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A3313DCE3D300A52B66 /* UIKit.framework */,
+				75C41A3513DCE3D300A52B66 /* Foundation.framework */,
+				75C41A3713DCE3D300A52B66 /* CoreGraphics.framework */,
+				75C41A5A13DCE3D300A52B66 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75C41A3913DCE3D300A52B66 /* Silent Rave */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A4213DCE3D300A52B66 /* Silent_RaveAppDelegate.h */,
+				75C41A4313DCE3D300A52B66 /* Silent_RaveAppDelegate.m */,
+				75C41A4513DCE3D300A52B66 /* MainWindow.xib */,
+				75C41A4813DCE3D300A52B66 /* FirstViewController.h */,
+				75C41A4913DCE3D300A52B66 /* FirstViewController.m */,
+				75C41A4B13DCE3D300A52B66 /* SecondViewController.h */,
+				75C41A4C13DCE3D300A52B66 /* SecondViewController.m */,
+				75C41A4E13DCE3D300A52B66 /* FirstView.xib */,
+				75C41A5113DCE3D300A52B66 /* SecondView.xib */,
+				75C41A3A13DCE3D300A52B66 /* Supporting Files */,
+			);
+			path = "Silent Rave";
+			sourceTree = "<group>";
+		};
+		75C41A3A13DCE3D300A52B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A3B13DCE3D300A52B66 /* Silent Rave-Info.plist */,
+				75C41A3C13DCE3D300A52B66 /* InfoPlist.strings */,
+				75C41A3F13DCE3D300A52B66 /* main.m */,
+				75C41A4113DCE3D300A52B66 /* Silent Rave-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75C41A6113DCE3D300A52B66 /* Silent RaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A6713DCE3D300A52B66 /* Silent_RaveTests.h */,
+				75C41A6913DCE3D300A52B66 /* Silent_RaveTests.m */,
+				75C41A6213DCE3D300A52B66 /* Supporting Files */,
+			);
+			path = "Silent RaveTests";
+			sourceTree = "<group>";
+		};
+		75C41A6213DCE3D300A52B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C41A6313DCE3D300A52B66 /* Silent RaveTests-Info.plist */,
+				75C41A6413DCE3D300A52B66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C41A2E13DCE3D300A52B66 /* Silent Rave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C41A6D13DCE3D300A52B66 /* Build configuration list for PBXNativeTarget "Silent Rave" */;
+			buildPhases = (
+				75C41A2B13DCE3D300A52B66 /* Sources */,
+				75C41A2C13DCE3D300A52B66 /* Frameworks */,
+				75C41A2D13DCE3D300A52B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silent Rave";
+			productName = "Silent Rave";
+			productReference = 75C41A2F13DCE3D300A52B66 /* Silent Rave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C41A5813DCE3D300A52B66 /* Silent RaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C41A7013DCE3D300A52B66 /* Build configuration list for PBXNativeTarget "Silent RaveTests" */;
+			buildPhases = (
+				75C41A5413DCE3D300A52B66 /* Sources */,
+				75C41A5513DCE3D300A52B66 /* Frameworks */,
+				75C41A5613DCE3D300A52B66 /* Resources */,
+				75C41A5713DCE3D300A52B66 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C41A6013DCE3D300A52B66 /* PBXTargetDependency */,
+			);
+			name = "Silent RaveTests";
+			productName = "Silent RaveTests";
+			productReference = 75C41A5913DCE3D300A52B66 /* Silent RaveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C41A2613DCE3D300A52B66 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 75C41A2913DCE3D300A52B66 /* Build configuration list for PBXProject "Silent Rave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75C41A2413DCE3D300A52B66;
+			productRefGroup = 75C41A3013DCE3D300A52B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C41A2E13DCE3D300A52B66 /* Silent Rave */,
+				75C41A5813DCE3D300A52B66 /* Silent RaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C41A2D13DCE3D300A52B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A3E13DCE3D300A52B66 /* InfoPlist.strings in Resources */,
+				75C41A4713DCE3D300A52B66 /* MainWindow.xib in Resources */,
+				75C41A5013DCE3D300A52B66 /* FirstView.xib in Resources */,
+				75C41A5313DCE3D300A52B66 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C41A5613DCE3D300A52B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A6613DCE3D300A52B66 /* InfoPlist.strings in Resources */,
+				75C41A6813DCE3D300A52B66 /* Silent_RaveTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C41A5713DCE3D300A52B66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C41A2B13DCE3D300A52B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A4013DCE3D300A52B66 /* main.m in Sources */,
+				75C41A4413DCE3D300A52B66 /* Silent_RaveAppDelegate.m in Sources */,
+				75C41A4A13DCE3D300A52B66 /* FirstViewController.m in Sources */,
+				75C41A4D13DCE3D300A52B66 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C41A5413DCE3D300A52B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C41A6A13DCE3D300A52B66 /* Silent_RaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C41A6013DCE3D300A52B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C41A2E13DCE3D300A52B66 /* Silent Rave */;
+			targetProxy = 75C41A5F13DCE3D300A52B66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75C41A3C13DCE3D300A52B66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C41A3D13DCE3D300A52B66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75C41A4513DCE3D300A52B66 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C41A4613DCE3D300A52B66 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		75C41A4E13DCE3D300A52B66 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C41A4F13DCE3D300A52B66 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		75C41A5113DCE3D300A52B66 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C41A5213DCE3D300A52B66 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		75C41A6413DCE3D300A52B66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C41A6513DCE3D300A52B66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C41A6B13DCE3D300A52B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75C41A6C13DCE3D300A52B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C41A6E13DCE3D300A52B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silent Rave/Silent Rave-Prefix.pch";
+				INFOPLIST_FILE = "Silent Rave/Silent Rave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75C41A6F13DCE3D300A52B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silent Rave/Silent Rave-Prefix.pch";
+				INFOPLIST_FILE = "Silent Rave/Silent Rave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75C41A7113DCE3D300A52B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Silent Rave.app/Silent Rave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silent Rave/Silent Rave-Prefix.pch";
+				INFOPLIST_FILE = "Silent RaveTests/Silent RaveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		75C41A7213DCE3D300A52B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Silent Rave.app/Silent Rave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silent Rave/Silent Rave-Prefix.pch";
+				INFOPLIST_FILE = "Silent RaveTests/Silent RaveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C41A2913DCE3D300A52B66 /* Build configuration list for PBXProject "Silent Rave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C41A6B13DCE3D300A52B66 /* Debug */,
+				75C41A6C13DCE3D300A52B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C41A6D13DCE3D300A52B66 /* Build configuration list for PBXNativeTarget "Silent Rave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C41A6E13DCE3D300A52B66 /* Debug */,
+				75C41A6F13DCE3D300A52B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75C41A7013DCE3D300A52B66 /* Build configuration list for PBXNativeTarget "Silent RaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C41A7113DCE3D300A52B66 /* Debug */,
+				75C41A7213DCE3D300A52B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C41A2613DCE3D300A52B66 /* Project object */;
+}
