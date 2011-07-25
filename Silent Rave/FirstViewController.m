@@ -9,6 +9,10 @@
 #import "FirstViewController.h"
 
 @implementation FirstViewController
+@synthesize startStopButton;
+@synthesize datePicker;
+@synthesize currentSongLabel;
+@synthesize chooseSongButton;
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -34,10 +38,28 @@
 
 - (void)viewDidUnload
 {
+    [self setChooseSongButton:nil];
+    [self setCurrentSongLabel:nil];
+    [self setDatePicker:nil];
+    [self setStartStopButton:nil];
     [super viewDidUnload];
 
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
+- (void)dealloc {
+    [chooseSongButton release];
+    [currentSongLabel release];
+    [datePicker release];
+    [startStopButton release];
+    [super dealloc];
+}
+
+- (IBAction)chooseSong:(id)sender {
+
+}
+
+- (IBAction)startStop:(id)sender {
+}
 @end

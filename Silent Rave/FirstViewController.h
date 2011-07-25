@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+    UIButton *chooseSongButton;
+    UILabel *currentSongLabel;
+    UIDatePicker *datePicker;
+    UIButton *startStopButton;
+}
+
+@property (nonatomic, retain) IBOutlet UIButton *startStopButton;
+@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
+@property (nonatomic, retain) IBOutlet UILabel *currentSongLabel;
+
+@property (nonatomic, retain) IBOutlet UIButton *chooseSongButton;
+
+- (IBAction)startStop:(id)sender;
+- (IBAction)chooseSong:(id)sender;
 
 @end
