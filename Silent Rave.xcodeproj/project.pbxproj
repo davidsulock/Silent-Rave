@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7537B7DA13DD00AE00552C1D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7537B7D913DD00AE00552C1D /* MediaPlayer.framework */; };
 		75C41A3413DCE3D300A52B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3313DCE3D300A52B66 /* UIKit.framework */; };
 		75C41A3613DCE3D300A52B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3513DCE3D300A52B66 /* Foundation.framework */; };
 		75C41A3813DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C41A3713DCE3D300A52B66 /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7537B7D913DD00AE00552C1D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		75C41A2F13DCE3D300A52B66 /* Silent Rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silent Rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C41A3313DCE3D300A52B66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75C41A3513DCE3D300A52B66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7537B7DA13DD00AE00552C1D /* MediaPlayer.framework in Frameworks */,
 				75C41A3413DCE3D300A52B66 /* UIKit.framework in Frameworks */,
 				75C41A3613DCE3D300A52B66 /* Foundation.framework in Frameworks */,
 				75C41A3813DCE3D300A52B66 /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +94,7 @@
 		75C41A2413DCE3D300A52B66 = {
 			isa = PBXGroup;
 			children = (
+				7537B7D913DD00AE00552C1D /* MediaPlayer.framework */,
 				75C41A3913DCE3D300A52B66 /* Silent Rave */,
 				75C41A6113DCE3D300A52B66 /* Silent RaveTests */,
 				75C41A3213DCE3D300A52B66 /* Frameworks */,
@@ -458,6 +462,7 @@
 				75C41A6F13DCE3D300A52B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75C41A7013DCE3D300A52B66 /* Build configuration list for PBXNativeTarget "Silent RaveTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +471,7 @@
 				75C41A7213DCE3D300A52B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

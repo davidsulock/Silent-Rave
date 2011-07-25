@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "Silent_RaveAppDelegate.h"
 
 @implementation FirstViewController
 @synthesize startStopButton;
@@ -57,9 +58,35 @@
 }
 
 - (IBAction)chooseSong:(id)sender {
-
+    MPMediaPickerController *picker = [[MPMediaPickerController alloc] initWithMediaTypes: MPMediaTypeAnyAudio]; 
+    [picker setDelegate: self];
+    [picker setAllowsPickingMultipleItems: NO];
+    picker.prompt = NSLocalizedString (@"Choose Song", "Everyone in the rave should choose the same file");
+    [self presentModalViewController: picker animated: YES];
+    [picker release];
 }
 
 - (IBAction)startStop:(id)sender {
 }
+
+- (void) mediaPicker:(MPMediaPickerController *)picker didPickMediaItems:(MPMediaItemCollection *)collection {
+    Silent_RaveAppDelegate* delegate = (Silent_RaveAppDelegate*)[UIApplication sharedApplication].delegate;
+    [self dismissModalViewControllerAnimated: YES];
+    
+    if([collection.items count] > 0) {
+        delegate.song = [collection.items objectAtIndex:0];
+        currentSongLabel.text = [delegate.song valueForProperty:MPMediaItemPropertyTitle];
+    }
+    
+}
+
+- (void)mediaPickerDidCancel:(MPMediaPickerController *)mediaPicker {
+    Silent_RaveAppDelegate* delegate = (Silent_RaveAppDelegate*)[UIApplication sharedApplication].delegate;
+    [self dismissModalViewControllerAnimated: YES];
+    delegate.song = nil;
+    currentSongLabel.text = @"no song currently selected";
+}
+
+
+
 @end

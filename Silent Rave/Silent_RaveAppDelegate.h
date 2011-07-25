@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface Silent_RaveAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface Silent_RaveAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+    MPMediaItem* song;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) IBOutlet MPMediaItem *song;
 
 @end

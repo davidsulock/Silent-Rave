@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface FirstViewController : UIViewController {
+
+@interface FirstViewController : UIViewController <MPMediaPickerControllerDelegate> {
     UIButton *chooseSongButton;
     UILabel *currentSongLabel;
     UIDatePicker *datePicker;
